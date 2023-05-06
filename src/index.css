@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin:0;
+  padding: 0;
+}
+/* Header  */
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.header,.footer{
+ padding: 10px 0;
+  color:#fff;
+  background-color: #0000cd;
+  text-align: center;
+}
+.header{
+  margin-bottom: 1em;
+}
+.content{
+  flex-grow: 1;
+
+}
+/* content-item */
+.content-item{
+  background: 
+  #ededed;
+  margin-bottom: .5em;
+   display: flex;
+  justify-content: space-between;
+   padding: 10px;
+}
+.content-item-title{
+  display: flex;
+ }
+.content-item-title input[type="checkbox"]{
+width: 25px;
+height: 25px;
+margin-right: 10px;
+cursor: pointer;
+}
+.content-item-delete svg{
+  font-size: 25px;
+  cursor: pointer;
+  color:#457396 ;
+  transition: .3s all ease-in-out;
+
+}
+.content-item-delete svg:hover{
+  color:red
+}
+.addNewItem , .search{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+   padding: 10px 0;
+  width: 95%;
+  margin: auto;
+}
+
+.addNewItem form , .search form{
+   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.addNewItem form input ,  .search form input{
+  width: 95%;
+}
+.isloading{
+  color:#FFF;
+  background-color: #0f1f4d;
+  font-weight: bold;
+  padding: 10px 0;
+  text-align: center;
+}

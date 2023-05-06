@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": true,
+      "title": "item1"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "title": "item2"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "title": "item3"
+    },
+    {
+      "checked": false,
+      "title": "item4",
+      "id": 4
+    },
+    {
+      "checked": false,
+      "title": "item5",
+      "id": 5
+    },
+    {
+      "checked": false,
+      "title": "item6",
+      "id": 6
+    },
+    {
+      "checked": false,
+      "title": "item7",
+      "id": 7
+    },
+    {
+      "checked": false,
+      "title": "item7",
+      "id": 8
+    },
+    {
+      "checked": false,
+      "title": "item8",
+      "id": 9
+    },
+    {
+      "checked": false,
+      "title": "item9",
+      "id": 10
+    },
+    {
+      "checked": false,
+      "title": "item10",
+      "id": 11
+    }
+  ]
+}
